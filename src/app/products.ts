@@ -9,133 +9,93 @@ export const products = [
   {
     id: 1,
     name: 'iPhone 12 Pro Max',
-    price: 969,
-    description: 'Wireless carrier\tUnlocked for All Carriers\n' +
-        'Brand\tApple\n' +
-        'Memory storage capacity\t128 GB\n' +
-        'Operating system\tIOS 14\n' +
-        'Colour\tGraphit\n' +
-        'Model year\t2020',
+    price: 1342,
+    description: 'Apple iPhone 12 Pro Max with an elegant design without rounded edges in a stainless steel case. The 6.7—inch Super Retina XDR display - the largest among iPhone displays — has the highest resolution and displays almost 3.5 million pixels, demonstrating amazing realism of the image.',
     rating:4.2,
-    arrayofimages: ['123','234234','534534'],
-    imageSrc: 'https://m.media-amazon.com/images/I/71Ujb4adTRL._AC_SL1500_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/A2411/dp/B08PCDHMWQ/ref=sr_1_4?crid=2BJAVEKRLH4LE&keywords=iphone+13+pro+max&qid=1646431415&rnid=1703609031&s=telephone&sprefix=iphone+13+pro+ma%2Caps%2C167&sr=1-4'
+    arrayofimages: ['12','234','54'],
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hcb/h1a/33281077968926/apple-iphone-12-pro-max-256gb-sinij-100658113-1-Container.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/apple-iphone-12-pro-max-256gb-sinii-100658113/?c=750000000#!/item'
   },
   {
     id: 2,
-    name: 'iPhone 11 Pro Max',
-    price: 732,
-    description: 'Model name\tApple iPhone 11 Pro Max\n' +
-        'Wireless carrier\tUnlocked\n' +
-        'Brand\tApple\n' +
-        'Form factor\tTouchscreen\n' +
-        'Memory storage capacity\t256 GB\n' +
-        'Operating system\tIOS',
+    name: 'iPhone 13 ',
+    price: 890,
+    description: 'The Apple iPhone 13 received a 6.1-inch Super Retina XDR display, which features an incredibly high pixel density — photos, videos and text look strikingly clear. And thanks to the reduced area of the True Depth camera, there is now more space for the image on the display.',
     rating:4.1,
-    imageSrc: 'https://m.media-amazon.com/images/I/81nxsVyBAlL._AC_SL1500_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/dp/B082DK5W6Z/ref=sr_1_2?crid=2BJAVEKRLH4LE&keywords=iphone%2B13%2Bpro%2Bmax&qid=1646431466&rnid=1703609031&s=telephone&sprefix=iphone%2B13%2Bpro%2Bma%2Caps%2C167&sr=1-2&th=1'
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h01/h10/46392662491166/apple-iphone-13-128gb-cernyj-102298404-1-Container.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/apple-iphone-13-128gb-chernyi-102298404/?c=750000000#!/item'
   },
   {
     id: 3,
-    name: 'iPhone XS',
-    price: 782,
-    description: 'Model name\tApple iPhone XS 64GB\n' +
-        'Wireless carrier\tUnlocked\n' +
-        'Brand\tApple\n' +
-        'Form factor\tSmartphone\n' +
-        'Memory storage capacity\t64 GB\n' +
-        'Operating system\tIOS',
-    rating:4,
-    imageSrc: 'https://m.media-amazon.com/images/I/512F7mwDVyL._AC_SL1024_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/Apple-iPhone-XS-Refurbished-64GB/dp/B07N9HM3Z4/ref=sr_1_1?crid=ULNFHA2GVAWW&keywords=iphone+XS&qid=1646431885&sprefix=iphone+xs%2Caps%2C160&sr=8-1'
+    name: 'Xiaomi Redmi 10C ',
+    price: 161,
+    description: 'Xiaomi Red 10C is equipped with a large display with a diagonal of 6.71 inches with Corning Gorilla Glass, which protects the screen from scratches and damage when falling. Redmi 10C allows you to create professional-level photos in a format for entertainment.',
+    rating:2,
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hea/h96/49939925139486/xiaomi-redmi-10c-4-gb-128-gb-seryj-104417231-1.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/xiaomi-redmi-10c-4-gb-128-gb-seryi-104417231/?c=750000000#!/item'
   },
   {
     id: 4,
-    name: 'iPhone XR',
-    price: 347,
-    description: 'Model name\tApple iPhone XR 64GB\n' +
-        'Wireless carrier\tUnlocked\n' +
-        'Brand\tApple\n' +
-        'Form factor\tSmartphone\n' +
-        'Memory storage capacity\t64 GB\n' +
-        'Operating system\tIOS',
-    rating:4.3,
-    imageSrc: 'https://object.pscloud.io/cms/cms/Photo/img_0_77_2752_3_1.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/Apple-iPhone-XR-64GB-Refurbished/dp/B07N9HM3ZR/ref=sr_1_1?crid=3H4FU87DVRT1T&keywords=iphone&qid=1646432054&sprefix=iphone%2Caps%2C179&sr=8-1&th=1'
+    name: ' Samsung Galaxy A33 ',
+    price: 290,
+    description: 'The Galaxy A33 5G smartphone has become thinner and more elegant thanks to a matte finish, high-quality frames and a flawless camera body with Ambient Edge. Thanks to the 6.4-inch Infinity-U screen with a frequency of 90 Hz on the Galaxy A33 5G smartphone, you will be able to see everything that was hidden from your view.',
+    rating:3.1,
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h7b/he7/49894748094494/samsung-galaxy-a33-5g-6-gb-128-gb-cernyj-104398547-1.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/samsung-galaxy-a33-5g-6-gb-128-gb-chernyi-104398547/?c=750000000#!/item'
   },
   {
     id: 5,
-    name: 'iPhone X',
-    price: 485,
-    description: 'Model name\tIPhone X\n' +
-        'Wireless carrier\tUnlocked for All Carriers\n' +
-        'Brand\tApple\n' +
-        'Form factor\tBar\n' +
-        'Memory storage capacity\t256 GB',
+    name: ' Apple iPhone 13 ',
+    price: 834,
+    description: 'The Apple iPhone 13 received a 6.1-inch Super Retina XDR display, which features an incredibly high pixel density — photos, videos and text look strikingly clear. And thanks to the reduced area of the True Depth camera, there is now more space for the image on the display.',
     rating:4.0,
-    imageSrc: 'https://m.media-amazon.com/images/I/51pQi346XcL._AC_SL1154_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/X_PARENT/dp/B0797Q5771/ref=sr_1_6?crid=3H4FU87DVRT1T&keywords=iphone&qid=1646432054&sprefix=iphone%2Caps%2C179&sr=8-6'
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h93/h8a/46392660721694/apple-iphone-13-128gb-rozovyj-102298145-1-Container.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/apple-iphone-13-128gb-rozovyi-102298145/?c=750000000#!/item'
   },
   {
     id: 6,
-    name: 'Apple iPhone 8 64GB Silver',
-    price: 230,
-    description: 'Model name\tIPhone 8\n' +
-        'Wireless carrier\tAu\n' +
-        'Brand\tApple\n' +
-        'Form factor\t1\n' +
-        'Memory storage capacity\t64 GB',
-    rating:4.2,
-    imageSrc: 'https://m.media-amazon.com/images/I/41I4w-DDABL._AC_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/MQ6H2B-A_64/dp/B0797P5BCV/ref=sr_1_12?crid=3H4FU87DVRT1T&keywords=iphone&qid=1646432054&sprefix=iphone%2Caps%2C179&sr=8-12'
+    name: ' Apple iPhone 11 128Gb Slim Box',
+    price: 671,
+    description: 'The functional and stylish Apple iPhone 11 smartphone in a metal case is able to provide not only everyday communication and entertainment, but also productive work. The image on the screen of a smartphone with a diagonal of 6.1 inches has amazing detail and color reproduction.',
+    rating:3.5,
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h79/h01/33208264720414/apple-iphone-11-128gb-slim-box-belyj-100692385-1-Container.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/apple-iphone-11-128gb-slim-box-belyi-100692385/?c=750000000#!/item'
   },
   {
     id: 7,
-    name: 'iPhone 7',
-    price: 158,
-    description: 'Model name\tIPhone 7\n' +
-        'Wireless carrier\tUnlocked\n' +
-        'Brand\tApple\n' +
-        'Form factor\tSmartphone\n' +
-        'Memory storage capacity\t32 GB\n' +
-        'Operating system\tIOS',
-    rating:4.0,
-    imageSrc: 'https://m.media-amazon.com/images/I/51rxj5TepeL._AC_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/Apple-iPhone-refurbished-32GB-Black/dp/B01N9VBVN1/ref=sr_1_2?crid=3H4FU87DVRT1T&keywords=iphone&qid=1646432054&sprefix=iphone%2Caps%2C179&sr=8-2&th=1'
+    name: 'Samsung Galaxy A73',
+    price: 534,
+    description: 'Galaxy A73 5G - multimedia center you have even more possibilities in your hands. Galaxy A73 5G powered by Snapdragon 778G 5G processor expands multimedia capabilities thanks to the highest level of gaming, professional shooting and advanced artificial intelligence technology to improve performance. Need more memory? The RAM Plus function provides additional virtual RAM',
+    rating:3.7,
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h53/hc6/50197108097054/samsung-galaxy-a73-5g-8-gb-256-gb-zelenyi-104546061-1.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/samsung-galaxy-a73-5g-8-gb-256-gb-zelenyi-104546061/?c=750000000#!/item'
   },
   {
     id: 8,
-    name: 'Samsung Galaxy A12',
-    price: 201,
-    description: 'Display: 6,5 Zoll (16,63 cm)\n' +
-        'Hauptkamera: 48 + 5 + 2 + 2 MP\n' +
-        'Speicher: 128 GB / 4 GB RAM\n' +
-        'Akku: 5000 mAh',
-    rating:4.5,
-    imageSrc: 'https://m.media-amazon.com/images/I/91akbfdbByL._AC_SL1500_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/Samsung-Galaxy-128GB-Mobile-Android/dp/B08Q8GJXPF/ref=sr_1_2?crid=2ZF9UC4U7J8EN&keywords=samsung&qid=1646432461&sprefix=samsun%2Caps%2C189&sr=8-2'
+    name: 'Samsung Galaxy S22 Ultra 12',
+    price: 1164,
+    description: 'Meet the Galaxy S22 Ultra with the power of the Note Its slim aluminum body impresses with its perfect shape. And the exquisite outlines of the rear cameras seem to be buried in its smooth surface. It has never been brighter, appreciate the Dynamic AMOLED 2X display with Vision Booster technology and 1750 thread, thanks to which you will forget about glare.',
+    rating:4.1,
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hda/hb6/48695060529182/samsung-galaxy-s22-ultra-12-256gb-cernyj-podarok-103668309-1.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/samsung-galaxy-s22-ultra-12-gb-256-gb-chernyi-103668309/?c=750000000#!/item'
   },
   {
     id: 9,
-    name: 'Samsung Galaxy S20',
-    price: 454,
-    description: 'Is Discontinued By Manufacturer  :  No\n' +
-        'Product Dimensions  :  15.98 x 7.45 x 0.84 cm; 193 Grams\n' +
-        'Date First Available  :  27 April 2021\n' +
-        'Manufacturer  :  Samsung\n' +
-        'ASIN :  B096G5MZ34',
-    rating:4.5,
-    imageSrc: 'https://m.media-amazon.com/images/I/61GbkDVtLwL._AC_SL1100_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/Samsung-Galaxy-Smartphone-Cloud-Android/dp/B096G5MZ34/ref=sr_1_18?crid=2ZF9UC4U7J8EN&keywords=samsung&qid=1646432550&sprefix=samsun%2Caps%2C189&sr=8-18'
+    name: 'Apple iPhone 12 mini ',
+    price: 657,
+    description: 'Apple iPhone 12 mini has a new elegant design without rounding the edges. When making the front panel of a smartphone, ceramic nanocrystals are added to the glass matrix, which are stronger than many known metals. Dual ion exchange technology provides excellent protection against cracks, scratches and other minor damages. Frame',
+    rating:4.1,
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hb3/h20/33277048422430/apple-iphone-12-mini-64gb-cernyj-100657220-1-Container.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/apple-iphone-12-mini-64gb-chernyi-100657220/?c=750000000#!/item'
   },
   {
     id: 10,
-    name: 'Samsung Galaxy S21',
-    price: 772,
-    description: 'Processor : 2.9 Ghz \n Display : 173mm \n Camera : 108 MP \n Memory : 12 GB',
-    rating:4.4,
-    imageSrc: 'https://m.media-amazon.com/images/I/81u8oHzGLmL._AC_SL1500_.jpg',
-    amazonLink: 'https://www.amazon.de/-/en/Samsung-Galaxy-Smartphone-Phantom-Android/dp/B08QX85YKM/ref=sr_1_17?crid=2ZF9UC4U7J8EN&keywords=samsung&qid=1646432550&sprefix=samsun%2Caps%2C189&sr=8-17'
+    name: 'Samsung Galaxy A73',
+    price: 630,
+    description: 'Galaxy A73 5G - multimedia center you have even more possibilities in your hands. Galaxy A73 5G powered by Snapdragon 778G 5G processor expands multimedia capabilities thanks to the highest level of gaming, professional shooting and advanced artificial intelligence technology to improve performance.',
+    rating:2.9,
+    imageSrc: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h0c/h2c/51531118018590/samsung-galaxy-a73-5g-6-gb-128-gb-zelenyi-104546042-1.jpg',
+    kaspiLink: 'https://kaspi.kz/shop/p/samsung-galaxy-a73-5g-6-gb-128-gb-zelenyi-104546042/?c=750000000#!/item'
   }
 ];
 /*

@@ -3,7 +3,7 @@
 <div *ngFor="let product of products">
 
   <h3>
-    <a [title]="product.name + ' details'" href="{{product.amazonLink}}">
+    <a [title]="product.name + ' details'" href="{{product.kaspiLink}}">
       {{ product.name }}
     </a>
   </h3>
@@ -16,7 +16,7 @@
 </p>
 <p *ngIf="product.price"> Price: {{product.price}}$
 </p>
-<a [href] = "'https://telegram.me/share/url?url=' + product.amazonLink " target="_blank">
+<a [href] = "'https://telegram.me/share/url?url=' + product.kaspiLink " target="_blank">
   <button type="button" (click)="share()">
     Share
   </button>
